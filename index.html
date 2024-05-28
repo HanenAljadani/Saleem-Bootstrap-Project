@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" dir="rtl">
 
 <head>
   <meta charset="UTF-8"><!--for Arabic -->
@@ -15,65 +15,105 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"
     integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy"
     crossorigin="anonymous"></script>
-  <title>Document</title>
+  <title>Saleem</title>
+  <style>
+    *{
+      font-family:  serif;
+    }
+
+    a {
+  text-decoration: none;
+}
+  </style>
 </head>
 
 <body>
   <div class="container  ">
-    <nav class="p-4  d-flex flex-row-reverse justify-content-between navbar navbar-expand-sm navbar-light bg-light">
+    <header class="sticky-top">
+    <nav class="p-3  navbar  navbar-light bg-light rounded-bottom">
       <!--Navbar-->
-      <a class="navbar-brand" href="#">سليم</a>
-      <ul class="navbar-nav ">
-        <li class="nav-item"><a class="nav-link" href="#"> تواصل معنا </a></li>
-        <li class="nav-item"><a class="nav-link" href="#academy"> اكاديمية سليم </a></li>
-        <li class="nav-item"><a class="nav-link" href="#services"> الخدمات </a></li>
-        <li class="nav-item"><a class="nav-link" href="#about"> حول سليم </a></li>
-        <li class="nav-item"><a class="nav-link" href="#main">الرئيسية </a></li>
-      </ul>
-    </nav>
-    <div class="row " id="main">
-
-      <img src="images/8.jpeg" class="opacity-50">
-      <p class="carousel-caption d-flex text-center justify-content-center align-items-center fs-1"
-        style=" color:#436542 ;">سليم لصيانه الاجهزة </p>
+     <div> <a class="navbar-brand fs-3" href="#main">سليم</a>
     </div>
-    <div class="row pt-4 mt-5 pb-5 me-1 ms-1 d-flex flex-row-reverse badge  text-wrap" style="background:#e3ae0f "
+     <div> <ul class="navbar-nav list-group list-group-horizontal">
+      <li class="nav-item list-group-item border-0 bg-light" ><a class="nav-link" href="#main">الرئيسية </a></li>
+      <li class="nav-item list-group-item border-0 bg-light" ><a class="nav-link" href="#about"> حول سليم </a></li>
+      <li class="nav-item list-group-item border-0 bg-light"><a class="nav-link"  href="#services"> الخدمات </a></li>
+      <li class="nav-item list-group-item border-0 bg-light"><a class="nav-link"  href="#academy"> اكاديمية سليم </a></li>
+      <li class="nav-item list-group-item border-0 bg-light"><a class="nav-link"  href="#"> تواصل معنا </a></li>
+      </ul></div>
+    </nav>
+  </header>
+  <main>
+    <div class="row d-flex text-center justify-content-center align-items-center" id="main">
+    <img src="images/8.jpeg" class="opacity-50">
+      <p class="fs-1 "
+        style=" color:#436542 ; position: absolute;">سليم لصيانة الاجهزة </p>
+    </div>
+    <div class="row  shadow-lg pt-4 mt-5 pb-5 me-1 ms-1 text-end  rounded" style="background:#e3ae0f "
       id="about">
-      <h2 class="pe-5 d-flex flex-row-reverse" style="font-size:40px; color:black;">من نحن ؟ </h2>
-      <p class="pt-4 pe-5 d-flex flex-row-reverse text-lg " style="font-size:25px; color:rgb(37, 37, 37);">شركة أسست في
+      <h2 class="pe-5 fs-1 " style=" color:black;">من نحن ؟ </h2>
+      <p class="pt-4 pe-5 fs-3  text-lg " style=" color:rgb(37, 37, 37);">شركة أسست في
         عام ٢٠٢٤ وتهتم في صيانه الاجهزه واصلاح الالكترونيات وحل المشكلات البرمجية في الاجهزة</p>
     </div>
     <div class="row" id="services">
-      <h2 class="mt-5 fs-1   d-flex text-center justify-content-center">خدماتنا </h2>
+      <h2 class="mt-5 fs-1 d-flex text-center justify-content-center">خدماتنا </h2>
     </div>
     <div class="mt-5 mb-5 d-flex text-center justify-content-evenly">
 
       <div class="shadow-lg p-5 card " style="width: 18rem; background:#436542 ; color:white;">
 
         <div class="card-body">
-          <p class="card-text font-weight-bold" style="font-size:30px;">تقديم ورش عمل في صيانة الاجهزه </p>
+          <p class="card-text fs-3 font-weight-bold" >تقديم ورش عمل في صيانة الاجهزه </p>
 
         </div>
       </div>
       <div class="shadow-lg p-5 card" style="width: 18rem; background:#436542 ; color:white">
 
         <div class="card-body">
-          <p class="card-text font-weight-bold" style="font-size:30px;">صيانة وتغيير قطع الاجهزة</p>
+          <p class="card-text fs-3 font-weight-bold" >صيانة وتغيير قطع الاجهزة</p>
 
         </div>
       </div>
     </div>
-    <div class="row pt-5 pb-5 d-flex flex-row-reverse " id="academy">
+    <div class="row pt-5 pb-5  " id="academy">
 
-      <div class="col-6 pt-5 badge  text-wrap d-flex text-center justify-content-end align-items-center"
-        style="font-size:30px;color:black;background:#e3ae0f ">سجل الآن في ورشتنا القادمة
+      <div class="col-6 pt-5 fs-3 badge text-wrap"
+        style="color:black;background:#e3ae0f ">سجل الآن في ورشتنا القادمة
         صيانة الاجهزة للمبتدئين </div>
       <div class="col-6 "><img src="images/99.jpeg"></div>
     </div>
     <div class="row">
+      <div class="col">
+        <form class="form">
+
+        </form>
+      </div>
+    </div>
+ 
+</main> 
+<footer>
+<div class="row d-flex text-center justify-content-center ">
+  <div class="col">
+    <div class="card bg-light border-0">
+      <div class="card-body">
+        <div class="row pt-2">
+          <ul class=" list-group list-group-horizontal d-flex text-center justify-content-center " style="color:#436542">
+            <li class=" list-group-item border-0 bg-light" ><a  href="#main"><small style="color:#436542">الرئيسية</small> </a></li>
+            <li class=" list-group-item border-0 bg-light" ><a  href="#about"><small style="color:#436542"> حول سليم </small></a></li>
+            <li class=" list-group-item border-0 bg-light"><a  href="#services"><small style="color:#436542">الخدمات </small></a></li>
+            <li class=" list-group-item border-0 bg-light"><a   href="#academy"> <small style="color:#436542">اكاديمية سليم </small></a></li>
+            <li class=" list-group-item border-0 bg-light"><a   href="#"> <small style="color:#436542">تواصل معنا </small></a></li>
+            </ul>
+        </div>
+        <div class="row pt-3 pb-2">
+          <h4>سليم لصيانة الاجهزة</h4>
+        </div>
+      </div>
     </div>
   </div>
-  </div>
+</div>
+</footer>
+</div>
 </body>
 
 </html>
